@@ -97,4 +97,7 @@ while cont < 3 and login == False:
     else:
         print('usuario o contraseña incorrecta')
         cont = cont+1
+    if cont == 3:
+        print('usuario bloqueado')
+   
 
